@@ -84,24 +84,24 @@ Fetch API
 
 ## 🏗️ **Project Architecture**
 
-#### **Backend (Spring Boot)**
+    #### **Backend (Spring Boot)**
 
-├── controller     → REST APIs
-├── service        → Business logic
-├── model          → DTOs & entities
-├── security       → JWT, hashing, verification
-├── repository     → Database access
-└── exception      → Global exception handling
+    ├── controller     → REST APIs
+    ├── service        → Business logic
+    ├── model          → DTOs & entities
+    ├── security       → JWT, hashing, verification
+    ├── repository     → Database access
+    └── exception      → Global exception handling
 
-#### **Frontend (React)**
+    #### **Frontend (React)**
 
-│
-├── components
-│   ├── Register.jsx
-│   ├── Login.jsx
-│   └── PasswordGenerator.jsx
-├── App.jsx
-└── Tailwind styling
+    │
+    ├── components
+    │   ├── Register.jsx
+    │   ├── Login.jsx
+    │   └── PasswordGenerator.jsx
+    ├── App.jsx
+    └── Tailwind styling
 
 ## **🔌 API Endpoints**
 
@@ -144,25 +144,25 @@ Fetch API
 
 ## **▶️ How to Run Locally**
 
-Backend
+  Backend
 
-cd PasswordGenerator
-./mvnw spring-boot:run
+      cd PasswordGenerator
+      ./mvnw spring-boot:run
 
-Frontend
+  Frontend
 
-cd password-generator-ui
-npm install
-npm run dev
+      cd password-generator-ui
+      npm install
+      npm run dev
 
 Frontend runs on:
 
-http://localhost:5173
+    http://localhost:5173
 
 
 Backend runs on:
 
-http://localhost:8080
+    http://localhost:8080
 
 **## 🔒 Security Highlights**
 
